@@ -115,7 +115,7 @@ main:
 main_BALISE:
 	@echo 'Building file: $(OBJ_PATH)/main.o'
 	@echo 'Invoking: Cross ARM C Compiler'
-	$(CC) $(CC_OPT) $(CC_FLAGS) $(CC_INC) -c -o $(OBJ_PATH)/main.o src/main_BALISE_V2.c
+	$(CC) $(CC_OPT) $(CC_FLAGS) $(CC_INC) -c -o $(OBJ_PATH)/main.o src/main_BALISE.c
 	@echo 'Finished building: $(OBJ_PATH)/main.o'
 	@echo ' '
 
